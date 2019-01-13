@@ -74,8 +74,6 @@ public class UserTest {
 		// Exercise
 		int instanceHash = instance.hashCode();
 		int otherHash = other.hashCode();
-		System.out.println(instanceHash);
-		System.out.println(otherHash);
 		boolean actual = instanceHash == otherHash;
 		// Verify
 		assertThat(actual, is(true));
